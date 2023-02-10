@@ -34,6 +34,7 @@ public class Login {
         }
         @Test
         public void Test2(){
+            System.out.println("Terminal");
             System.out.println("main");
         }
 
