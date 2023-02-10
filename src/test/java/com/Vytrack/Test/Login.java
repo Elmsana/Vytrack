@@ -24,7 +24,7 @@ public class Login {
             @Test
             public void dashboard(){
 
-            dashboard dash = new dashboard()
+            dashboard dash = new dashboard();
             dash.MyConfiguration.click();
             BrowserUtils.waitFor(2);
             String actualTitle = Driver.get().getTitle();
