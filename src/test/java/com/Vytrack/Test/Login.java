@@ -32,6 +32,10 @@ public class Login {
             dash.logout.click();
 
         }
+        @Test
+        public void Test2(){
+            System.out.println("main");
+        }
 
 
     public void close(){
